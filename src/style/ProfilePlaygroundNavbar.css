@@ -1,0 +1,64 @@
+.profile-playground-navbar {
+    background-color: #681e1e;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 3px 4px rgba(89, 89, 89, 0.244);
+    font-family: 'Poppins', sans-serif;
+    height: 60px;
+}
+
+.profile-playground-navbar .bi-arrow-left-circle{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #B84C20;
+    border: none;
+    margin-inline: 10px;
+    padding-left: 20px;
+}
+
+.profile-playground-navbar .bi-arrow-left-circle:hover{
+    color: #e4bcac;
+}
+
+.profile-playground-navbar p{
+    margin: auto 0;
+    font-size: 1rem;
+    color: #B84C20;
+}
+
+.right-navbar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 15px;
+    margin-right: 10px;
+}
+
+.ping {
+    color: #B84C20;
+    font-size: smaller;
+}
+
+.right-navbar i{
+    margin-right: 20px;
+    color: #B84C20;
+}
+
+@media (max-width: 425px) {
+    .profile-playground-navbar {
+        height: 50px;
+    }
+    
+    .profile-playground-navbar .bi-arrow-left-circle{
+        padding-left: 10px;
+    }
+
+    .profile-playground-navbar p{
+        font-size: 0.95rem;
+    }
+
+    .right-navbar i{
+        margin-right: 10px;
+        color: #B84C20;
+    }
+    
+}

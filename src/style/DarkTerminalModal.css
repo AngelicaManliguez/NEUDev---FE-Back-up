@@ -1,0 +1,38 @@
+.dark-terminal-modal .modal-content {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff;           /* White text */
+    border: none;
+    border-radius: 0;
+  }
+  
+  .dark-terminal-modal-header {
+    border-bottom: 1px solid #333333;
+  }
+  
+  /* Make the close button (X) white instead of black */
+  .dark-terminal-modal-header .btn-close {
+    filter: invert(100%);
+  }
+  
+  .dark-terminal-modal-body {
+    font-family: monospace;
+    min-height: 250px; /* Just to give it some space */
+  }
+  
+  .executing-spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .executing-text {
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .terminal-output {
+    white-space: pre-wrap; /* Preserve line breaks in output */
+    padding: 1rem;
+  }  

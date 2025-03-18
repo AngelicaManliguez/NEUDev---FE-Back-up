@@ -1,0 +1,28 @@
+/* Apply to the entire xterm container */
+.xterm {
+    /* Force your own font family, size, color, etc. */
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    letter-spacing: 0.5px !important;
+  }
+  
+  /* Make sure the background and text colors match your theme */
+  .xterm .xterm-viewport {
+    background-color: #1e1e1e !important;
+  }
+  .xterm .xterm-rows div {
+    color: #ffffff !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.4 !important;
+    letter-spacing: 0.5px !important;
+  }
+  
+  /* Optionally tweak the cursor or selection highlight */
+  .xterm .xterm-cursor-layer {
+    opacity: 0.8 !important;
+  }
+  .xterm .xterm-selection div {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+  }  
